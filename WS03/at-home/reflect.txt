@@ -1,0 +1,24 @@
+// Workshop 3
+// Name: Koto Sumioka
+// Student #: 110206174
+// Course: OOP244 Fall 2018
+// File: reflect.txt
+
+1. How many elements are there in each C-style character string that stores a family or given name for the account? Why?
+In this lab, there are 41 elements in each C-style character string since the max number is 40 + 1 including 0.
+
+2. Your class declares two member functions named set(...). In C, this would generate an error. Name the feature of C++ that allows this.
+The feature is called "function overloading". It works by different parameters, which the compiler is able to identify the difference of parameters within its functions.
+It would understand difference of "set(para1)" and "set(para1, para2)".
+
+3. What have you learned in completing this workshop?
+I have learned the importance of a class type and how private and public data work in modulator.
+
+
+Quiz 2 Reflection:
+
+1. What is the difference between a class and a struct?
+The default class of "class" is private, in other hand, the default class of "struct" is public.
+
+2. What does it mean to place an object in an empty state?
+When you place an object in an empty state, it reject invalid data and store default values that identify the object's state.
